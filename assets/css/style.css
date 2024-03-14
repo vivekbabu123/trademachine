@@ -1,0 +1,1153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+:root {
+    --white-: #fff;
+    --black-: #000;
+    --hover-green: #d74085;
+    --background-blue: #1e81b0;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Regular.ttf) format('truetype') font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(../fonts/LibreFranklin-Thin.ttf) format('truetype');
+    font-weight: 100;
+}
+
+
+
+/* start header */
+.top_head {
+    background-color: #000;
+    padding: 10px;
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: var(--white-);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    white-space: nowrap;
+
+}
+
+.vl {
+    border-left: 3px solid #d74085;
+    height: 30px;
+}
+
+.top_nav a:hover {
+    color: var(--hover-green);
+}
+
+.nav_bar:hover {
+    color: var(--hover-green) !important;
+}
+
+.nav_barlist {
+    color: var(--black-) !important;
+    font-size: 17px;
+    transition-duration: 0.3s;
+    font-weight: 600;
+}
+
+.nav_btn a {
+    background-color: var(--hover-green);
+    color: var(--white-);
+    font-weight: 600;
+    padding: 13px;
+    transition-duration: 0.3s;
+}
+
+.nav_btn a:hover {
+    background-color: var(--black-);
+    color: var(--white-);
+    font-weight: 600;
+    padding: 13px;
+}
+
+/* finish header */
+/* videooverlay start */
+.video_overlayheading {
+    background-color: var(--background-blue);
+    text-align: center;
+    padding: 10px;
+    color: var(--hover-green);
+}
+
+
+
+/* Style for overlay content */
+.overlay_content {
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    /* Adjust this value for horizontal positioning */
+    transform: translateY(-50%);
+    color: var(--white);
+    text-align: center;
+}
+
+.overlay_content h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--white-);
+
+}
+
+/* Style for video overlay heading */
+.locator {
+    background-color: var(--white-);
+    padding: 20px;
+    border-radius: 2px;
+
+}
+
+.locator h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--background-blue);
+}
+
+.locator button {
+    background-color: var(--hover-green);
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+.locator button:hover {
+    background-color: var(--black-);
+}
+
+/* videooverlay finish */
+/* Gym Equipment tab start  */
+.gymequipment_start {
+    padding: 40px 0;
+}
+
+.tab_gymitems {
+    font-size: 17px;
+    color: var(--background-blue);
+    font-weight: 600;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--white-) !important;
+    background-color: var(--background-blue) !important;
+    border: 2px solid var(--hover-green) !important;
+
+}
+
+.equipment_prevent {
+    background-color: var(--background-blue);
+    margin: 0px !important;
+}
+
+.heading_equipmentservice h2 {
+    color: var(--white-);
+    font-weight: 700;
+
+}
+
+.heading_equipmentservice p {
+    color: var(--white-);
+    font-weight: 400;
+}
+
+.heading_equipmentservice button {
+    background-color: var(--hover-green);
+    color: var(--white-);
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.heading_equipmentservice button:hover {
+    background-color: var(--black-);
+    color: var(--white-);
+}
+
+.heading_brandservice h1 {
+    color: var(--background-blue);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.slick-wrapper {
+    width: 100%;
+
+}
+
+.slide-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    border: 1px solid white;
+
+}
+
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000 !important;
+
+}
+
+/* Gym Equipment tab finish  */
+/* INDUSTRIES WE SERVE start */
+.hotels {
+    background-image: url(../img/INDUSTRIES/1.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotels:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.apartments {
+    background-image: url(../img/INDUSTRIES/2.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartments:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.college {
+    background-image: url(../img/INDUSTRIES/3.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.cor_gyms {
+    background-image: url(../img/INDUSTRIES/4.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor_gyms:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.health_club {
+    background-image: url(../img/INDUSTRIES/6.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health_club:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.Med_facilities {
+    background-image: url(../img/INDUSTRIES/7.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Med_facilities:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.residental {
+    background-image: url(../img/INDUSTRIES/9.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residental:hover {
+    border: 5px solid var(--hover-green);
+}
+
+.first_respond {
+    background-image: url(../img/INDUSTRIES/10.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_respond:hover {
+    border: 5px solid var(--hover-green);
+}
+
+/* INDUSTRIES WE SERVE finish */
+.hire_heading h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--background-blue);
+}
+
+.hire_heading p {
+    color: #3a3a3a;
+    font-weight: 500;
+}
+
+.hire_heading span {
+    color: var(--hover-green);
+    font-weight: 500;
+}
+
+/* HIRE FITNESS start */
+.video-container {
+    background-image: url(../img/0.jpg);
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (height 56.25% of width) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vision_content h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--background-blue);
+}
+
+.vision_content p {
+    color: #3a3a3a;
+    font-weight: 500;
+}
+
+.vision_content button {
+    background-color: var(--hover-green);
+
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+
+/* HIRE FITNESS finish */
+/* Request a Quote start */
+
+.step-container {
+    position: relative;
+    text-align: center;
+    transform: translateY(-43%);
+}
+
+.progress {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--hover-green);
+    border: 2px solid var(--hover-green);
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* Added cursor pointer */
+}
+
+.step-line {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    width: calc(100% - 100px);
+    height: 2px;
+    background-color: #007bff;
+    z-index: -1;
+}
+
+#multi-step-form {
+    overflow-x: hidden;
+}
+
+.request_form {
+    background-color: var(--background-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-container {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.next_step {
+    background-color: var(--hover-green) !important;
+    color: var(--white-) !important;
+    padding: 10px 40px !important;
+    border-radius: 0px !important;
+}
+
+/* Request a Quote finish */
+/* can except start */
+.can_except {
+    background-image: url(../img/expect_section-bg.webp);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.canexcept_text h2 {
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.canexcept_text p {
+    font-weight: 400;
+
+
+}
+
+.canexcept_text button {
+    background-color: var(--hover-green);
+    font-weight: 700;
+    border-radius: 0;
+}
+
+/* can except finish */
+/* local provider start */
+.local_heading h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: var(--background-blue);
+    white-space: nowrap;
+}
+
+/* local provider finish */
+/*  CUSTOMERS HAVE TO SAY start */
+.customer_say {
+    background-image: url(../img/foot_bg.webp);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customer_heading h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: var(--white-);
+    padding: 30px 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 2% !important;
+}
+
+.carousel-indicators {
+    bottom: -50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+
+}
+
+.carousel-item p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*  CUSTOMERS HAVE TO SAY finish */
+/* affiliation start */
+.affilation_heading h1 {
+    font-weight: 900;
+    font-size: 42px;
+    color: var(--background-blue);
+    white-space: nowrap;
+}
+
+.affiliation1 img {
+    width: 60% !important;
+    margin: 0 auto;
+}
+
+/* affiliation finish */
+/* contact us start */
+.contact_us {
+    background-image: url(../img/cta_bg.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conatct_heading h1 {
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.conatct_heading p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.conatct_heading button {
+    background-color: var(--hover-green);
+    border-radius: 0;
+}
+
+/* contact us finish */
+.footer_nav {
+    background-color: var(--background-blue);
+}
+
+.number_footer p {
+    font-size: 24px;
+    color: var(--white-);
+    font-weight: 700;
+}
+
+.number_footer p:hover {
+    font-size: 24px;
+    color: var(--hover-green);
+}
+
+.footer_btn button {
+    background-color: var(--hover-green);
+    border-radius: 0px;
+}
+
+.footer_btn button:hover {
+    background-color: var(--hover-green);
+
+}
+
+.about_footer button {
+    border: 2px solid var(--white-);
+    border-radius: 0px;
+}
+
+.about_footer button:hover {
+    background-color: var(--hover-green);
+    border: 2px solid var(--hover-green);
+}
+
+.social_icon {
+    display: flex;
+
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.social_svg {
+    fill: rgba(85, 157, 39, 1);
+    transition: fill 0.3s;
+}
+
+.social_link:hover .social_svg {
+    fill: black;
+}
+
+.quick_link h2 {
+    color: var(--white-);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quick_nav ul {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.quick_nav ul li {
+    margin: 10px 0;
+}
+
+.quick_nav ul li a {
+    text-decoration: none;
+    color: var(--white-);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.quick_nav ul li a:hover {
+    font-weight: 800;
+    color: var(--hover-green) !important;
+
+}
+
+.prev_men ul {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.prev_men ul li {
+    margin: 10px 0;
+}
+
+.prev_men ul li a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--white-);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.prev_men ul li a:hover {
+
+    color: var(--hover-green) !important;
+
+}
+
+.footer_sitemap {
+    background-color: var(--background-blue);
+}
+
+hr {
+    height: 2px !important;
+    color: var(--white-) !important;
+}
+
+.machine_techi a {
+    text-decoration: none;
+    color: var(--white-);
+}
+
+.machine_techi a:hover {
+    text-decoration: none;
+    color: var(--hover-green);
+}
+
+/* About us start */
+.about_heading {
+    background-image: url(../img/aboutus/aboutbanner.webp);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_txt h2 {
+
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* aboutus fitrunbg start */
+.fitrunbg {
+    background: url(../img/aboutus/running_bg.png) center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fitrunbg_heading h1 {
+    font-weight: 700;
+    color: var(--background-blue);
+    margin-bottom: 15px;
+}
+
+.fitrunbg_heading h6 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--hover-green);
+}
+
+.fitrunbg_heading p {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.fitrunbg_heading span {
+    color: var(--hover-green);
+}
+
+
+/* aboutus fitrunbg finish */
+
+/* aboutus our service start */
+.our_service {
+    background-color: #f1f2f6;
+}
+
+.service_txt h2 {
+    color: var(--background-blue);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.service_txt h6 {
+    color: #3a3a3a;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.service_txt span {
+    color: var(--hover-green);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.service_txt p {
+
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+
+/* aboutus our service finish */
+/* aboutus our experience start */
+.our_exp {
+    background-color: #003362;
+}
+
+.heading_exp h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.heading_exp p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* aboutus our experience finish*/
+/* about us our goals start */
+.goal_txt h1 {
+    color: var(--background-blue);
+    font-size: 52px;
+}
+
+.goal_txt p {
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* about us our goals finish */
+/* about us our purpose start */
+.our_purpose {
+    background-color: #003362;
+}
+
+.purpose_txt h1 {
+
+    font-size: 52px;
+}
+
+.purpose_txt p {
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* about us our purpose finish */
+
+
+/* abooutus missionvalue start */
+.missionvalue {
+    background: url(../img/aboutus/purposeabout.webp) center/cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission_txt {
+    background-color: var(--hover-green);
+    color: var(--white-);
+    padding: 40px;
+}
+
+.mission_txt h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.mission_txt p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* abooutus missionvalue finish */
+/* aboutus Commounity involvment start */
+.community_heading h1 {
+    font-weight: 800;
+    color: var(--background-blue);
+    margin-bottom: 20px;
+}
+
+.community_heading p {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+}
+
+.community_heading span {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--hover-green)
+}
+
+.conor h5 {
+    background-color: var(--background-blue);
+}
+
+
+/* aboutus Commounity involvment finish */
+
+/* about us finish */
+
+/* brands start */
+.brands_bg {
+    background: url(../img/brands/treadmill_bg.webp) center/cover no-repeat;
+    height: 300px;
+}
+
+.heading_bg h1 {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+/* brands finish */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+@media (min-width: 1024px) and (max-width: 1299px) {
+
+
+    .overlay_content h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .overlay_content h1 {
+        font-size: 37px;
+    }
+
+    .overlay_content {
+        right: 8%;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 10px;
+    }
+
+    .hire_heading h2 {
+        font-size: 27px;
+    }
+
+    .hire_heading p {
+        font-size: 12px;
+    }
+
+    .green_arrow p {
+        font-size: 12px;
+    }
+
+    .vision_content h2 {
+        font-size: 20px;
+    }
+
+    .vision_content p {
+        font-size: 12px;
+    }
+
+    .heading_brandservice h1 {
+        font-size: 32px;
+    }
+
+    .canexcept_text h2 {
+        font-size: 32px;
+    }
+
+    .canexcept_text p {
+        font-size: 12px;
+    }
+
+    .local_heading h1 {
+        font-size: 23px;
+    }
+
+    .conatct_heading p {
+        font-size: 16px;
+    }
+
+    .prev_men ul li a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .logo_menu {
+        width: 150px !important;
+    }
+
+    .top_head {
+        display: none;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 11px;
+    }
+
+
+
+
+    .video_overlayheading h2 {
+        font-size: 16px;
+    }
+
+    .tab_gymitems {
+        font-size: 8px !important;
+    }
+
+    .overlay_content {
+        display: none;
+    }
+
+    .row.align-items-center.equipment_prevent {
+        padding: 0px !important;
+    }
+
+    .heading_brandservice h1 {
+        font-size: 22px;
+    }
+
+    .heading_equipmentservice h2 {
+        font-size: 17px;
+    }
+
+    .hire_heading h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .hire_heading p {
+        font-size: 13px;
+    }
+
+    .vision_content h2 {
+        font-size: 23px;
+        margin: 15px 0;
+    }
+
+    .vision_content p {
+        font-size: 14px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+
+    .canexcept_text h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .canexcept_text p {
+        font-size: 12px;
+    }
+
+    .local_heading h1 {
+        font-size: 18px;
+    }
+
+    .customer_heading h1 {
+        font-size: 18px;
+    }
+
+    .carousel-item p {
+        font-size: 12px;
+    }
+
+    .affilation_heading h1 {
+        font-size: 21px;
+    }
+
+    .machine_techi {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #multi-step-form {
+        padding: 5px;
+    }
+
+    .reqst_footer {
+        flex-direction: column;
+    }
+
+    .reqst_footer button {
+        margin: 5px 0;
+    }
+
+    .line_heading img {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+/* media query finish */

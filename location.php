@@ -23,7 +23,7 @@
                         Service
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Our Service</a></li>
+                        <li><a class="dropdown-item" href="./services.php">Our Service</a></li>
                         <li><a class="dropdown-item" href="#">All Fitness Equipment Sales & Service </a></li>
                         <li><a class="dropdown-item" href="#">Elliptical Sales & Service</a></li>
                         <li><a class="dropdown-item" href="#">Preventive Maintenance</a></li>
@@ -97,14 +97,30 @@ ABOUT
                 <div class="row">
                     <div class="col-12">
                         <div class="title_location">
-                            
+                            <h2>FIND A LOCATION</h2>
                         </div>
                     </div>
+                    
                 </div>
             </div>
            </section>
         <!-- location hero finish -->
+        <!-- start map section -->
+        <section class="map_section">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29160.69036570754!2d85.34425599999999!3d23.992729599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1710928045599!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
 
+        </section>
+
+        <!-- finish map section -->
+        <!-- footer start -->
+        <?php include "footer.php"?>
+        <!-- footer finish -->
 
 
 

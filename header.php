@@ -30,7 +30,7 @@
                         Service
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Our Service</a></li>
+                        <li><a class="dropdown-item" href="./services.php">Our Service</a></li>
                         <li><a class="dropdown-item" href="#">All Fitness Equipment Sales & Service </a></li>
                         <li><a class="dropdown-item" href="#">Elliptical Sales & Service</a></li>
                         <li><a class="dropdown-item" href="#">Preventive Maintenance</a></li>

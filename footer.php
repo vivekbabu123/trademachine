@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="logo">
-                    <img src="./assets/img/fitnesswhite.png" alt="img" class="img-fluid">
+                    <img src="./assets/img/fitness-hub.png" alt="img" class="img-fluid">
                 </div>
                 <div class="number_footer pt-2">
                     <p class="mb-0"><span><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgba(215, 64, 33, 1);transform: ;msFilter:;">
@@ -83,7 +83,7 @@
                             <input type="number" name="" id="" class="form-control rounded-0 " placeholder="ZIP/ Postal Code">
                         </div>
                         <div class="col">
-                            <button class="btn text-nowrap text-white rounded-0" style="background-color:#d74085; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#d74085';" onmouseout="this.style.backgroundColor='#d74085';">
+                            <button class="btn text-nowrap text-white rounded-0" style="background-color:#e9bc5b; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#d74085';" onmouseout="this.style.backgroundColor='#e9bc5b';">
                                 FIND A LOCATION
                             </button>
 

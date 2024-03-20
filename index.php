@@ -40,7 +40,7 @@
                         </video>
                     </div>
                     <div class="overlay_content">
-                        <h1 class="pb-5">Fitness Equipment Repair and<br>Preventive Maintenance Services</h1>
+                        <h1 class="pb-5 text-Warning">Fitness Equipment Repair and<br>Preventive Maintenance Services</h1>
                         <div class="locator d-flex justify-content-around align-items-center">
                             <h4 class="mb-0 text-nowrap">FIND YOUR LOCAL PROVIDER</h2>
                                 <input type="number" name="" id="" class="form-control w-25" placeholder="ZIP/ Postal Code">

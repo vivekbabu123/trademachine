@@ -13,8 +13,8 @@ body {
 :root {
     --white-: #fff;
     --black-: #3a3a3a;
-    --hover-green: #d74085;
-    --background-blue: #1e81b0;
+    --hover-green: #e9bc5b;
+    --background-blue: #1765bd;
 }
 
 @font-face {
@@ -55,7 +55,8 @@ body {
 
 @font-face {
     font-family: 'Libre Franklin';
-    src: url(../fonts/LibreFranklin-Regular.ttf) format('truetype') font-weight: 400;
+    src: url(../fonts/LibreFranklin-Regular.ttf) format('truetype');
+     font-weight: 400;
 }
 
 @font-face {
@@ -147,8 +148,8 @@ body {
 
 .overlay_content h1 {
     font-size: 40px;
-    font-weight: 400;
-    color: var(--white-);
+    font-weight: 700;
+   color: var(--background-blue);
 
 }
 
@@ -615,7 +616,7 @@ body {
 
 /* contact us finish */
 .footer_nav {
-    background-color: var(--background-blue);
+    background-color: #d6d6d7;
 }
 
 .number_footer p {
@@ -719,7 +720,7 @@ body {
 }
 
 .footer_sitemap {
-    background-color: var(--background-blue);
+    background-color: #d6d6d7;
 }
 
 hr {
@@ -1049,7 +1050,240 @@ hr {
 
 /* brands finish */
 /* industries start */
+    .top_bg{
+        background-image: url(../img/indusriespage/running.webp);
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+
+    }
+    .top_heading h2{
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .car_txt h2{
+        color: var(--background-blue);
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .car_txt p{
+        color: #3a3a3a;
+        line-height: 1.6;
+        font-weight:400;
+    }
+    .industries_service{
+        background-color: var(--background-blue);
+    }
+    .indust_title h2{
+        color: var(--white-);
+        font-weight: 900;
+        font-size: 40px;
+        padding: 10px 0 0 0;
+    }
+    .indust_title p{
+        color: var(--white-);
+        font-weight: 400;
+        font-size: 17px;
+    
+    }
+    .hotel_indust{
+        background: url(../img/indusriespage/hotels_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .hotel_indust h2{
+        font-weight: 900;
+        margin-top: 168px;
+       
+    }
+    .hotel_indust p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .hotel_indust a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .hotel_indust a:hover{
+        color: #000;
+     }
+
+
+     .apaart_indus{
+        background: url(../img/indusriespage/apartment_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .apaart_indus h2{
+        font-weight: 900;
+        margin-top: 168px;
+       
+    }
+    .apaart_indus p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .apaart_indus a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .apaart_indus a:hover{
+        color: #000;
+     }
+     .College_indus{
+        background: url(../img/indusriespage/schools_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .College_indus h2{
+        font-weight: 900;
+        margin-top: 168px;
+       
+    }
+    .College_indus p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .College_indus a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .College_indus a:hover{
+        color: #000;
+     }
+     .physical_indus{
+        background: url(../img/indusriespage/healthclubs_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .physical_indus h2{
+        font-weight: 900;
+        margin-top: 168px;
+       
+    }
+    .physical_indus p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .physical_indus a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .physical_indus a:hover{
+        color: #000;
+     }
+     .corporate_indus{
+        background: url(../img/indusriespage/fitness_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .corporate_indus h2{
+        font-weight: 900;
+        margin-top: 100px;
+       
+    }
+    .corporate_indus p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .corporate_indus a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .corporate_indus a:hover{
+        color: #000;
+     }
+     .private_indus{
+        background: url(../img/indusriespage/private_col_bg.webp) no-repeat center/cover;
+        height: 450px;
+        display: flex;
+      flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+
+    }
+    .private_indus h2{
+        font-weight: 900;
+        margin-top: 100px;
+       
+    }
+    .private_indus p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+       
+    }
+    .private_indus a{
+       color: var(--hover-green);
+       font-size: 24px;
+       text-decoration: underline;
+       text-decoration-thickness: 2px;
+       text-underline-offset: 8px;
+    }
+    .private_indus a:hover{
+        color: #000;
+     }
+
+
+
+
+
+
 /* industries finish */
+/* location start */
+     .location_hero{
+        background: url(../img/location/location_banner.jpg) no-repeat center/cover;
+        height: 400px;
+     }
+/* location finish */
 
 
 
@@ -1096,7 +1330,27 @@ hr {
     }
     .fitrunbg_heading p {
        
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .hotel_indust p {
+        font-size: 14px;
+        
+    }
+    .apaart_indus p {
+        font-size: 14px;
+        
+    }
+    .College_indus p {
+        font-size: 14px;
+       
+    }
+    .physical_indus p {
+        font-size: 14px;
+        
+    }
+    .corporate_indus p {
+        font-size: 14px;
+       
     }
 
 }
@@ -1233,6 +1487,38 @@ hr {
     .arrow_divide li {
       
         font-size: 10px;
+    }
+    .top_heading h2 {
+        font-size: 46px;
+      
+    }
+    .car_txt h2 {
+        
+        font-size: 26px;
+    }
+    .car_txt p {
+    
+        font-size: 12px;
+    }
+    .hotel_indust p {
+        font-size: 12px;
+        
+    }
+    .apaart_indus p {
+        font-size: 12px;
+        
+    }
+    .College_indus p {
+        font-size: 12px;
+       
+    }
+    .physical_indus p {
+        font-size: 12px;
+        
+    }
+    .corporate_indus p {
+        font-size: 12px;
+       
     }
       
 }
@@ -1443,7 +1729,42 @@ hr {
         font-size: 15px;
        
     }
-
+    .top_heading h2{
+        font-size: 20px;
+    }
+    .car_txt h2 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .car_txt p {
+        font-size: 14px;
+       
+    }
+    .indust_title h2 {
+        padding-top: 15px;
+        font-size: 26px;
+      
+    }
+    .hotel_indust p {
+        font-size: 12px;
+        
+    }
+    .apaart_indus p {
+        font-size: 12px;
+        
+    }
+    .College_indus p {
+        font-size: 12px;
+       
+    }
+    .physical_indus p {
+        font-size: 12px;
+        
+    }
+    .corporate_indus p {
+        font-size: 12px;
+       
+    }
 
 
 }

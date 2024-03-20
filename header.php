@@ -56,7 +56,7 @@
 
                     </a>
                     <ul class="dropdown-menu text-dark nav_bar" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Our Industries</a></li>
+                        <li><a class="dropdown-item" href="./industries.php">Our Industries</a></li>
                         <li><a class="dropdown-item" href="#">Hotels</a></li>
                         <li><a class="dropdown-item" href="#">Apartments & Condominiums</a></li>
                         <li><a class="dropdown-item" href="#">High School, College, Universities</a></li>

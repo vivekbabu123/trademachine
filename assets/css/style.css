@@ -7,11 +7,12 @@
 body {
     overflow-x: hidden;
     font-family: "Libre Franklin", sans-serif;
+    color: #3a3a3a;
 }
 
 :root {
     --white-: #fff;
-    --black-: #000;
+    --black-: #3a3a3a;
     --hover-green: #d74085;
     --background-blue: #1e81b0;
 }
@@ -1019,10 +1020,36 @@ hr {
     padding-left: 10px;
     font-size: 18px;
 }
+    .heading_brand h2{
+        font-weight: 800;
+        font-size: 40px;
+        color: var(--background-blue);
+
+    }
+    .heading_brand p{
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+    .heading_brand span{
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--hover-green);
+    }
+    .brands_fotcontent p{
+        color: var(--black-);
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .linebrands{
+        background-color: #f1f2f6;
+    }
 
 
 
 /* brands finish */
+/* industries start */
+/* industries finish */
 
 
 
@@ -1052,6 +1079,24 @@ hr {
 
     .overlay_content h1 {
         font-size: 24px;
+    }
+    
+    
+
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+
+
+   
+    .fitrunbg_heading h1{
+        font-size: 16px;
+    }
+    .fitrunbg_heading h6{
+        font-size: 16px;
+    }
+    .fitrunbg_heading p {
+       
+        font-size: 12px;
     }
 
 }
@@ -1113,6 +1158,83 @@ hr {
     .prev_men ul li a {
         font-size: 14px;
     }
+    .about_txt h2 {
+        font-size: 35px;
+    }
+    .fitrunbg_heading h1{
+        font-size: 20px;
+    }
+    .fitrunbg_heading p {
+      
+        font-size: 12px;
+    }
+    .service_txt h2 {
+        
+        font-size: 30px;
+    }
+    .service_txt h6{
+        font-size: 14px;
+    }
+    .heading_exp h1 {
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    .heading_exp p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .goal_txt h1 {
+    
+        font-size: 35px;
+    }
+    .goal_txt p {
+        
+        font-size: 14px;
+       
+    }
+    .purpose_txt h1 {
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    .purpose_txt p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .mission_txt p {
+       
+        font-size: 14px;
+    }
+    .conor h5 {
+        
+        font-size: 12px;
+    }
+    .heading_bg h1 {
+        font-size: 44px;
+      
+    }
+    .equipment_txt h2 {
+        
+        font-size: 20px;
+        
+    }
+    .equipment_txt p {
+        
+        font-size: 12px;
+    }
+    .type_heading h2 {
+      
+        font-size: 31px;
+    }
+    .type_heading p {
+        
+        font-size: 12px;
+       
+    }
+    .arrow_divide li {
+      
+        font-size: 10px;
+    }
+      
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1201,6 +1323,7 @@ hr {
 
     .affilation_heading h1 {
         font-size: 21px;
+        margin-top: 20px;
     }
 
     .machine_techi {
@@ -1223,6 +1346,102 @@ hr {
     .line_heading img {
         width: 75%;
         margin: 0 auto;
+    }
+    .about_txt h2 {
+        font-size: 30px;
+       
+    }
+    .fitrunbg_heading h1{
+        font-size: 15px;
+    }
+    .fitrunbg_heading p{
+        font-size: 10px;
+    }
+    .service_txt h2 {
+       
+      
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .service_txt h6{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .heading_exp h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .heading_exp p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .goal_txt h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .goal_txt p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .purpose_txt h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .purpose_txt p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .mission_txt h2{
+        font-size: 25px;
+    }
+    .mission_txt p{
+        font-size: 12px;
+    }
+    .heading_bg h1 {
+        font-size: 21px;
+       
+    }
+    .equipment_txt h2 {
+        
+        font-size: 26px;
+        
+    }
+    .equipment_txt p {
+      font-size: 12px;
+       
+    }
+    .b_br_hed h2 {
+       
+        font-size: 24px;
+       
+    }
+    .b_br_hed p {
+       
+        font-size: 12px;
+    }
+    .type_heading h2 {
+        margin-bottom: 0px;
+        font-size: 26px;
+        margin-top: 10px;
+       
+    }
+    .type_heading p {
+        
+        font-size: 12px;
+      
+    }
+    .heading_brand h2 {
+        
+        font-size: 30px;
+    
+    }
+    .heading_brand p {
+        
+        font-size: 14px;
+    }
+    .conatct_heading p {
+        font-size: 15px;
+       
     }
 
 

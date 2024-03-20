@@ -1581,6 +1581,21 @@ hr {
         font-size: 12px;
        
     }
+    .mainexcer_txt h1{
+        font-size: 25px;
+    }
+    .mainexcer_txt p{
+        font-size: 14px;
+    }
+    .fit_equip_txt h2{
+        font-size: 30px;
+    }
+    .fit_equip_txt p{
+        font-size: 14px;
+    }
+    .trademil_icon h6{
+        font-size: 8px;
+    }
       
 }
 
@@ -1825,6 +1840,29 @@ hr {
     .corporate_indus p {
         font-size: 12px;
        
+    }
+    .hero_titleservice h1 {
+        font-size: 34px;
+        
+    }
+    .brands_fotcontent p{
+        font-size: 12px;
+    }
+    .mainexcer_txt h1{
+        font-size: 21px;
+        margin-top: 15px;
+    }
+    .mainexcer_txt p{
+        font-size: 12px;
+    }
+    .fit_equip_txt h2{
+        font-size: 21px;
+    }
+    .fit_equip_txt p{
+        font-size: 12px;
+    }
+    .trademil_icon h6{
+        font-size: 9px;
     }
 
 

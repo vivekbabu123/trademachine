@@ -19,7 +19,7 @@
 <!-- header start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/img/machinewebsite.png" alt="img" class="img-fluid logo_menu"> </a>
+        <a class="navbar-brand" href="./"><img src="./assets/img/machinewebsite.png" alt="img" class="img-fluid logo_menu"> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,22 +72,23 @@
                     <a class="nav-link text-dark nav_bar" href="./brands.php">BRANDS
                     </a>
                 </li>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark nav_bar" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        ABOUT
-
-
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="./aboutus.php">ABOUT US</a></li>
-                        <li><a class="dropdown-item" href="#">CFET</a></li>
-                        <li><a class="dropdown-item" href="#">FAQS</a></li>
-
-
-
-
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        
+ABOUT
+          </a>
+          <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="./aboutus.php">ABOUT US</a></li>
+            <li><a class="dropdown-item" href="#">CFET</a></li>
+            <li><a class="dropdown-item" href="#">FAQS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+               
+                 
             </ul>
             <form class="d-flex nav_btn ">
 

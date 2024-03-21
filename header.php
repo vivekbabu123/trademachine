@@ -34,10 +34,10 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="./services.php">Our Service</a></li>
-                        <li><a class="dropdown-item" href="./Fitn_quipment.php">All Fitness Equipment Sales & Service
+                        <li><a class="dropdown-item" href="./fitn_quipment.php">All Fitness Equipment Sales & Service
                             </a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Elliptical Sales & Service</a></li>
+                        <li><a class="dropdown-item" href="./ellipsales.php">Elliptical Sales & Service</a></li>
                         <li><a class="dropdown-item" href="#">Preventive Maintenance</a></li>
                         <li><a class="dropdown-item" href="#">Outdoor Gym</a></li>
                         <li><a class="dropdown-item" href="#">Treadmill Sales & Service</a></li>

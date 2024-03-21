@@ -56,7 +56,7 @@ body {
 @font-face {
     font-family: 'Libre Franklin';
     src: url(../fonts/LibreFranklin-Regular.ttf) format('truetype');
-     font-weight: 400;
+    font-weight: 400;
 }
 
 @font-face {
@@ -149,7 +149,7 @@ body {
 .overlay_content h1 {
     font-size: 40px;
     font-weight: 700;
-   color: var(--background-blue);
+    color: var(--background-blue);
 
 }
 
@@ -760,7 +760,10 @@ hr {
 
 /* aboutus fitrunbg start */
 .fitrunbg {
-    background: url(../img/aboutus/running_bg.png) center/cover no-repeat;
+    background: url(../img/aboutus/running_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -876,7 +879,10 @@ hr {
 
 /* abooutus missionvalue start */
 .missionvalue {
-    background: url(../img/aboutus/purposeabout.webp) center/cover no-repeat;
+    background: url(../img/aboutus/purposeabout.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: overlay;
     height: 500px;
@@ -934,7 +940,10 @@ hr {
 
 /* brands start */
 .brands_bg {
-    background: url(../img/brands/treadmill_bg.webp) center/cover no-repeat;
+    background: url(../img/brands/treadmill_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
 }
 
@@ -1021,329 +1030,507 @@ hr {
     padding-left: 10px;
     font-size: 18px;
 }
-    .heading_brand h2{
-        font-weight: 800;
-        font-size: 40px;
-        color: var(--background-blue);
 
-    }
-    .heading_brand p{
-        font-weight: 400;
-        font-size: 20px;
-        
-    }
-    .heading_brand span{
-        font-weight: 500;
-        font-size: 20px;
-        color: var(--hover-green);
-    }
-    .brands_fotcontent p{
-        color: var(--black-);
-        font-weight: 400;
-        font-size: 17px;
-    }
-    .linebrands{
-        background-color: #f1f2f6;
-    }
+.heading_brand h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--background-blue);
+
+}
+
+.heading_brand p {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.heading_brand span {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--hover-green);
+}
+
+.brands_fotcontent p {
+    color: var(--black-);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.linebrands {
+    background-color: #f1f2f6;
+}
 
 
 
 /* brands finish */
 /* industries start */
-    .top_bg{
-        background-image: url(../img/indusriespage/running.webp);
-        height: 400px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
+.top_bg {
+    background-image: url(../img/indusriespage/running.webp);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 
-    }
-    .top_heading h2{
-        font-size: 52px;
-        font-weight: 700;
-    }
-    .car_txt h2{
-        color: var(--background-blue);
-        font-weight: 900;
-        font-size: 40px;
-    }
-    .car_txt p{
-        color: #3a3a3a;
-        line-height: 1.6;
-        font-weight:400;
-    }
-    .industries_service{
-        background-color: var(--background-blue);
-    }
-    .indust_title h2{
-        color: var(--white-);
-        font-weight: 900;
-        font-size: 40px;
-        padding: 10px 0 0 0;
-    }
-    .indust_title p{
-        color: var(--white-);
-        font-weight: 400;
-        font-size: 17px;
-    
-    }
-    .hotel_indust{
-        background: url(../img/indusriespage/hotels_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+}
 
-    }
-    .hotel_indust h2{
-        font-weight: 900;
-        margin-top: 168px;
-       
-    }
-    .hotel_indust p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .hotel_indust a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .hotel_indust a:hover{
-        color: #000;
-     }
+.top_heading h2 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.car_txt h2 {
+    color: var(--background-blue);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.car_txt p {
+    color: #3a3a3a;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.industries_service {
+    background-color: var(--background-blue);
+}
+
+.indust_title h2 {
+    color: var(--white-);
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px 0 0 0;
+}
+
+.indust_title p {
+    color: var(--white-);
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.hotel_indust {
+    background: url(../img/indusriespage/hotels_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+.hotel_indust h2 {
+    font-weight: 900;
+    margin-top: 168px;
+
+}
+
+.hotel_indust p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.hotel_indust a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.hotel_indust a:hover {
+    color: #000;
+}
 
 
-     .apaart_indus{
-        background: url(../img/indusriespage/apartment_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+.apaart_indus {
+    background: url(../img/indusriespage/apartment_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    }
-    .apaart_indus h2{
-        font-weight: 900;
-        margin-top: 168px;
-       
-    }
-    .apaart_indus p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .apaart_indus a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .apaart_indus a:hover{
-        color: #000;
-     }
-     .College_indus{
-        background: url(../img/indusriespage/schools_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
 
-    }
-    .College_indus h2{
-        font-weight: 900;
-        margin-top: 168px;
-       
-    }
-    .College_indus p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .College_indus a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .College_indus a:hover{
-        color: #000;
-     }
-     .physical_indus{
-        background: url(../img/indusriespage/healthclubs_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+}
 
-    }
-    .physical_indus h2{
-        font-weight: 900;
-        margin-top: 168px;
-       
-    }
-    .physical_indus p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .physical_indus a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .physical_indus a:hover{
-        color: #000;
-     }
-     .corporate_indus{
-        background: url(../img/indusriespage/fitness_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+.apaart_indus h2 {
+    font-weight: 900;
+    margin-top: 168px;
 
-    }
-    .corporate_indus h2{
-        font-weight: 900;
-        margin-top: 100px;
-       
-    }
-    .corporate_indus p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .corporate_indus a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .corporate_indus a:hover{
-        color: #000;
-     }
-     .private_indus{
-        background: url(../img/indusriespage/private_col_bg.webp) no-repeat center/cover;
-        height: 450px;
-        display: flex;
-      flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 10px;
+}
 
-    }
-    .private_indus h2{
-        font-weight: 900;
-        margin-top: 100px;
-       
-    }
-    .private_indus p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-       
-    }
-    .private_indus a{
-       color: var(--hover-green);
-       font-size: 24px;
-       text-decoration: underline;
-       text-decoration-thickness: 2px;
-       text-underline-offset: 8px;
-    }
-    .private_indus a:hover{
-        color: #000;
-     }
+.apaart_indus p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.apaart_indus a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.apaart_indus a:hover {
+    color: #000;
+}
+
+.College_indus {
+    background: url(../img/indusriespage/schools_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+.College_indus h2 {
+    font-weight: 900;
+    margin-top: 168px;
+
+}
+
+.College_indus p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.College_indus a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.College_indus a:hover {
+    color: #000;
+}
+
+.physical_indus {
+    background: url(../img/indusriespage/healthclubs_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+.physical_indus h2 {
+    font-weight: 900;
+    margin-top: 168px;
+
+}
+
+.physical_indus p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.physical_indus a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.physical_indus a:hover {
+    color: #000;
+}
+
+.corporate_indus {
+    background: url(../img/indusriespage/fitness_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+.corporate_indus h2 {
+    font-weight: 900;
+    margin-top: 100px;
+
+}
+
+.corporate_indus p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.corporate_indus a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.corporate_indus a:hover {
+    color: #000;
+}
+
+.private_indus {
+    background: url(../img/indusriespage/private_col_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+.private_indus h2 {
+    font-weight: 900;
+    margin-top: 100px;
+
+}
+
+.private_indus p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.private_indus a {
+    color: var(--hover-green);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.private_indus a:hover {
+    color: #000;
+}
+
 /* industries finish */
 /* location start */
-     .location_hero{
-        background: url(../img/location/location_banner.jpg) no-repeat center/cover;
-        height: 300px;
-        display: flex;
-        align-items: center;
-     }
-     .title_location h2{
-        color:var(--white-);
-        font-size: 52px;
-        font-weight: 800;
-     }
+.location_hero {
+    background: url(../img/location/location_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.title_location h2 {
+    color: var(--white-);
+    font-size: 52px;
+    font-weight: 800;
+}
 
 /* location finish */
 /* services start */
-     .hero_services{
-        background: url(../img/location/location_banner.jpg) no-repeat center/cover;
-        height: 300px;
-        display: flex;
-        align-items: center;
-     }
-     .hero_titleservice h1{
-        font-size: 52px;
-        font-weight: 700;
-     }
-     .brands_fotcontent a{
-        text-decoration: none;
-        font-size: 18px;
-     }
-     .maint_excer{
-        background-color: var(--background-blue);
-        color: #fff;
-        
-     }
-     .mainexcer_txt h1{
-        font-weight: 900;
-        font-size: 40px;
-     }
-     .mainexcer_txt p{
-        font-weight: 400;
-       line-height: 1.6;
-       font-size: 17px;
-     }
-     .fit_equipment{
-        background-color: #f1f2f6 !important;
-        padding: 40px 0;
-     }
-     .fit_equip_txt h2{
-        font-weight: 900;
-        font-size: 40px;
-        color: var(--background-blue);
-     }
-     .fit_equip_txt p{
-        font-weight: 400;
-        font-size: 18px;
-        color:#3a3a3a;
-        line-height: 1.6;
-     }
-     .we_service{
-        background-color: var(--background-blue);
-        color: var(--white-);
-        text-align: center;
-        padding: 22px 0;
-        margin-bottom: 15px;
-     }
-     .trademill:hover{
-        background-color: var(--hover-green) !important;
-        color:var(--white-);
-     }
+.hero_services {
+    background: url(../img/location/location_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero_titleservice h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.brands_fotcontent a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.maint_excer {
+    background-color: var(--background-blue);
+    color: #fff;
+
+}
+
+.mainexcer_txt h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.mainexcer_txt p {
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.fit_equipment {
+    background-color: #f1f2f6 !important;
+    padding: 40px 0;
+}
+
+.fit_equip_txt h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--background-blue);
+}
+
+.fit_equip_txt p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #3a3a3a;
+    line-height: 1.6;
+}
+
+.we_service {
+    background-color: var(--background-blue);
+    color: var(--white-);
+    text-align: center;
+    padding: 22px 0;
+    margin-bottom: 15px;
+}
+
+.trademill:hover {
+    background-color: var(--hover-green) !important;
+    color: var(--white-);
+}
 
 
 /* services finish */
+/* fitnn_quipment start */
+.maintain_andrepair_txt h2 {
+    font-size: 42px;
+    color: var(--background-blue);
+    font-weight: 900;
+}
+
+.maintain_andrepair_txt p {
+    line-height: 1.6;
+    color: #3a3a3a;
+    font-size: 17px;
+}
+
+.recommeded_sale {
+    background-color: var(--background-blue);
+    padding: 50px 0;
+}
+
+.title_sale h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title_sale p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.repair_equiment {
+    background-color: var(--hover-green);
+}
+
+.reapir_txtquiment h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.reapir_txtquiment li {
+    color: var(--white-);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+
+/* fitnn_quipment finish */
+
+/* elliptical_hero Elliptical Sales & Service start */
+.elliptical_hero {
+    background-image: url(../img/services/elliptical_banner.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+.ellipitical_maintaince {
+    background-color: var(--background-blue);
+    color: var(--white-);
+
+    padding: 45px 0;
+}
+
+.title_elliptical h2 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.title_elliptical p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.weekly_ellip {
+    background-color: var(--hover-green);
+}
+
+.desc_weekly h4 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+
+/* Elliptical Sales & Service finish */
+
 
 
 
@@ -1375,43 +1562,51 @@ hr {
     .overlay_content h1 {
         font-size: 24px;
     }
-    
-    
+
+
 
 }
+
 @media (min-width: 993px) and (max-width: 1199px) {
 
 
-   
-    .fitrunbg_heading h1{
+
+    .fitrunbg_heading h1 {
         font-size: 16px;
     }
-    .fitrunbg_heading h6{
+
+    .fitrunbg_heading h6 {
         font-size: 16px;
     }
+
     .fitrunbg_heading p {
-       
+
         font-size: 14px;
     }
+
     .hotel_indust p {
         font-size: 14px;
-        
+
     }
+
     .apaart_indus p {
         font-size: 14px;
-        
+
     }
+
     .College_indus p {
         font-size: 14px;
-       
+
     }
+
     .physical_indus p {
         font-size: 14px;
-        
+
     }
+
     .corporate_indus p {
         font-size: 14px;
-       
+
     }
 
 }
@@ -1473,130 +1668,162 @@ hr {
     .prev_men ul li a {
         font-size: 14px;
     }
+
     .about_txt h2 {
         font-size: 35px;
     }
-    .fitrunbg_heading h1{
+
+    .fitrunbg_heading h1 {
         font-size: 20px;
     }
+
     .fitrunbg_heading p {
-      
+
         font-size: 12px;
     }
+
     .service_txt h2 {
-        
+
         font-size: 30px;
     }
-    .service_txt h6{
+
+    .service_txt h6 {
         font-size: 14px;
     }
+
     .heading_exp h1 {
         font-size: 32px;
         margin-left: 10px;
     }
+
     .heading_exp p {
         font-size: 14px;
         margin-left: 10px;
     }
+
     .goal_txt h1 {
-    
+
         font-size: 35px;
     }
+
     .goal_txt p {
-        
+
         font-size: 14px;
-       
+
     }
+
     .purpose_txt h1 {
         font-size: 35px;
         margin-left: 10px;
     }
+
     .purpose_txt p {
         font-size: 14px;
         margin-left: 10px;
     }
+
     .mission_txt p {
-       
+
         font-size: 14px;
     }
+
     .conor h5 {
-        
+
         font-size: 12px;
     }
+
     .heading_bg h1 {
         font-size: 44px;
-      
+
     }
+
     .equipment_txt h2 {
-        
+
         font-size: 20px;
-        
+
     }
+
     .equipment_txt p {
-        
+
         font-size: 12px;
     }
+
     .type_heading h2 {
-      
+
         font-size: 31px;
     }
+
     .type_heading p {
-        
+
         font-size: 12px;
-       
+
     }
+
     .arrow_divide li {
-      
+
         font-size: 10px;
     }
+
     .top_heading h2 {
         font-size: 46px;
-      
+
     }
+
     .car_txt h2 {
-        
+
         font-size: 26px;
     }
+
     .car_txt p {
-    
+
         font-size: 12px;
     }
+
     .hotel_indust p {
         font-size: 12px;
-        
+
     }
+
     .apaart_indus p {
         font-size: 12px;
-        
+
     }
+
     .College_indus p {
         font-size: 12px;
-       
+
     }
+
     .physical_indus p {
         font-size: 12px;
-        
+
     }
+
     .corporate_indus p {
         font-size: 12px;
-       
+
     }
-    .mainexcer_txt h1{
+
+    .mainexcer_txt h1 {
         font-size: 25px;
     }
-    .mainexcer_txt p{
+
+    .mainexcer_txt p {
         font-size: 14px;
     }
-    .fit_equip_txt h2{
+
+    .fit_equip_txt h2 {
         font-size: 30px;
     }
-    .fit_equip_txt p{
+
+    .fit_equip_txt p {
         font-size: 14px;
     }
-    .trademil_icon h6{
+
+    .trademil_icon h6 {
         font-size: 8px;
     }
-      
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1709,159 +1936,198 @@ hr {
         width: 75%;
         margin: 0 auto;
     }
+
     .about_txt h2 {
         font-size: 30px;
-       
+
     }
-    .fitrunbg_heading h1{
+
+    .fitrunbg_heading h1 {
         font-size: 15px;
     }
-    .fitrunbg_heading p{
+
+    .fitrunbg_heading p {
         font-size: 10px;
     }
+
     .service_txt h2 {
-       
-      
+
+
         font-size: 20px;
         margin-left: 10px;
     }
-    .service_txt h6{
+
+    .service_txt h6 {
         font-size: 12px;
         margin-left: 10px;
     }
-    .heading_exp h1{
+
+    .heading_exp h1 {
         font-size: 25px;
         margin-left: 10px;
     }
-    .heading_exp p{
+
+    .heading_exp p {
         font-size: 12px;
         margin-left: 10px;
     }
-    .goal_txt h1{
+
+    .goal_txt h1 {
         font-size: 25px;
         margin-left: 10px;
     }
-    .goal_txt p{
+
+    .goal_txt p {
         font-size: 12px;
         margin-left: 10px;
     }
-    .purpose_txt h1{
+
+    .purpose_txt h1 {
         font-size: 25px;
         margin-left: 10px;
     }
+
     .purpose_txt p {
         font-size: 12px;
         margin-left: 10px;
     }
-    .mission_txt h2{
+
+    .mission_txt h2 {
         font-size: 25px;
     }
-    .mission_txt p{
+
+    .mission_txt p {
         font-size: 12px;
     }
+
     .heading_bg h1 {
         font-size: 21px;
-       
+
     }
+
     .equipment_txt h2 {
-        
+
         font-size: 26px;
-        
+
     }
+
     .equipment_txt p {
-      font-size: 12px;
-       
+        font-size: 12px;
+
     }
+
     .b_br_hed h2 {
-       
+
         font-size: 24px;
-       
+
     }
+
     .b_br_hed p {
-       
+
         font-size: 12px;
     }
+
     .type_heading h2 {
         margin-bottom: 0px;
         font-size: 26px;
         margin-top: 10px;
-       
+
     }
+
     .type_heading p {
-        
+
         font-size: 12px;
-      
+
     }
+
     .heading_brand h2 {
-        
+
         font-size: 30px;
-    
+
     }
+
     .heading_brand p {
-        
+
         font-size: 14px;
     }
+
     .conatct_heading p {
         font-size: 15px;
-       
+
     }
-    .top_heading h2{
+
+    .top_heading h2 {
         font-size: 20px;
     }
+
     .car_txt h2 {
         margin-top: 10px;
         font-size: 24px;
     }
+
     .car_txt p {
         font-size: 14px;
-       
+
     }
+
     .indust_title h2 {
         padding-top: 15px;
         font-size: 26px;
-      
+
     }
+
     .hotel_indust p {
         font-size: 12px;
-        
+
     }
+
     .apaart_indus p {
         font-size: 12px;
-        
+
     }
+
     .College_indus p {
         font-size: 12px;
-       
+
     }
+
     .physical_indus p {
         font-size: 12px;
-        
+
     }
+
     .corporate_indus p {
         font-size: 12px;
-       
+
     }
+
     .hero_titleservice h1 {
         font-size: 34px;
-        
+
     }
-    .brands_fotcontent p{
+
+    .brands_fotcontent p {
         font-size: 12px;
     }
-    .mainexcer_txt h1{
+
+    .mainexcer_txt h1 {
         font-size: 21px;
         margin-top: 15px;
     }
-    .mainexcer_txt p{
+
+    .mainexcer_txt p {
         font-size: 12px;
     }
-    .fit_equip_txt h2{
+
+    .fit_equip_txt h2 {
         font-size: 21px;
     }
-    .fit_equip_txt p{
+
+    .fit_equip_txt p {
         font-size: 12px;
     }
-    .trademil_icon h6{
+
+    .trademil_icon h6 {
         font-size: 9px;
     }
 

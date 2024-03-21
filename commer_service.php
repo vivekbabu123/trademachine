@@ -3,39 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elliptical Sales & Service</title>
+    <title>Commercial Installation</title>
     <!-- custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- bootstrap 5 css cdn link  start -->
+    <!-- bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
     <!-- header start -->
-        <?php include "header.php"?>
-    <!-- finish start -->
-    <!-- elliptical hero service start -->
-        <section class="elliptical_hero">
+    <?php include "header.php"?>
+    <!-- header finish -->
+
+    <!-- commericial  hero start -->
+    <section class="commer_services">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="title_elliciptial">
-                        <h2 class="text-center text-white">Elliptical Sales & Service</h2>
-                        </div>
+                    <div class="hero_titleservice text-center text-white">
+                        <h1>Commercial Installation</h1>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-    <!-- elliptical hero service finish -->
-      <!-- local provider start -->
-      <section class="local_provider py-5">
+        <!-- commericial hero finish -->
+        <!-- local provider start -->
+        <section class="local_provider py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -63,135 +58,103 @@
 
     </section>
     <!-- local provoider finish -->
-      <!-- ellipse sale & service start -->
-      <section class="maintain_andrepair">
+     <!-- ellipse sale & service start -->
+     <section class="maintain_andrepair">
 
 <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-md-6">
 
             <div class="maintain_andrepair_img">
-                <img src="./assets/img/services/preventive_maintenance.webp" alt="img" class="img-fluid">
+                <img src="./assets/img/services/cleaning_img.webp" alt="img" class="img-fluid">
 
             </div>
         </div>
         <div class="col-md-6">
             <div class="maintain_andrepair_txt">
-                <h2>Elliptical Sales & Service</h2>
-                <p>Elliptical machines can see a lot of use as one of the most popular pieces of exercise equipment. Let Fitness Machine Technicians step in to provide preventive maintenance service and handle any elliptical repair service you require.</p>
-                <p>Regular preventive maintenance is the best way to prolong the life of your elliptical machines. Fitness Machine Technicians offers a variety of services to keep your machine going and help you avoid future costly repairs. Our trusted technicians are certified per individual manufacturers’ specifications, providing them with the confidence and knowledge to fix any type of exercise equipment or elliptical. </p>
-                <p>Whether you want service as needed or would like to set up a regular maintenance plan, Fitness Machine Technicians can keep your equipment fit.
-                </p>
-
-
-
+                <h2>FITNESS EQUIPMENT INSTALLATION AND OTHER COMMERCIAL SERVICES</h2>
+                <p>At Fitness Machine Technicians, we’re proud to be a leader in the fitness equipment repair and maintenance industry. We provide fitness equipment installation and preventive maintenance services nationwide to both residential and commercial customers, so you can rest assured that we have experience in your industry. </p>
+                <p>Our commercial clients include manufacturers, resellers, and designers for hotels, apartment/condo complexes, education institutions, health clubs, and corporate offices. Fitness Machine Technicians is certified to service a variety of commercial fitness equipment brands directly by the manufacturers, giving our technicians the confidence and knowledge to work on any type of equipment. Our commercial exercise equipment installation customers can add on a service agreement to enjoy the benefits of better pricing and priority service.</p>
+   
             </div>
         </div>
     </div>
 </div>
 </section>
 <!-- ellipse sale & service finish -->
-<!-- RECOMMENDED ELLIPTICAL MAINTENANCE start -->
-    <section class="ellipitical_maintaince">
+ <!-- RECOMMENDED GYM EQUIPMENT SALE AND SERVICE START -->
+ <section class="recommeded_sale">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="title_elliptical text-center">
+                    <div class="title_sale">
                         <h2>
-                        RECOMMENDED ELLIPTICAL MAINTENANCE
+                        PROFESSIONAL CARE FOR YOUR COMMERCIAL GYM EQUIPMENT INSTALLATION
                         </h2>
-                        <p>Fitness Machine Technicians goes above and beyond to deliver superior repairs and service: from the initial diagnosis to completed repairs, you can trust our technicians will offer the knowledge, experience, and second-to-none turnaround time to see the job is done professionally.</p>
-                        <p>While our professional technicians deliver the most reliable services and elliptical machine repair, Fitness Machine Technicians recommends following an elliptical maintenance plan to avoid downtime and keep your equipment in top shape.</p>
-                        <p>If you’re looking to avoid having to fix your elliptical machine, we recommend the following maintenance plan:</p>
+                        <p>There’s no doubt about it: major equipment repairs can be costly and inconvenient, especially if you’re a commercial gym or health club owner. It’s important for commercial clients, like gyms and health clubs, to ensure their machines are operating safely and properly, as most manufacturers’ warranties require you to have preventive maintenance.</p>
+                        <p>The best way to extend the life of your equipment is to keep it in top condition with a preventive maintenance service agreement from Fitness Machine Technicians. Our monthly, bimonthly, and quarterly gym maintenance service agreements decrease downtime and “out of order” sign postings while keeping your facility safe by preventing major equipment failures.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                <div class="comm_txtquiment h-100 text-white">
+                    <h2>
+                    Brands We Install
+                    </h2>
+                    <p>Fitness Machine Technicians is committed to providing quality installation and preventive maintenance services, no matter which manufacturer produced your equipment. </p>
+                    <p>Some of the leading equipment brands our technicians are certified with include:</p>
+                 <ul>
+                    <li>Life Fitness</li>
+                    <li>CORE</li>
+                    <li>Technogym</li>
+                    <li>Freemotion</li>
+                    <li>Matrix</li>
+                    <li>TRUE</li>
+                    <li>Johnson Health Tech</li>
+                    <li>And many more</li>
+                </ul>
+                </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="comm_img text-white h-100">
+                        <h2>Types of Fitness Equipment We Install</h2>
+                        <p>No matter if you have one or several units, whether an existing fitness facility or a brand-new gym, no job is too big or too small for Fitness Machine Technicians! We’re happy to install gym equipment for a variety of machine types.</p>
+                        <p>In addition to gym equipment, treadmills, ellipticals, exercise bikes, and stepmill machines, we also install the following specialty equipment:</p>
+                        <ul>
+                            <li>Strength Training Equipment (Multi and Single Station)</li>
+                            <li>Air Bikes</li>
+                            <li>Rowers</li>
+                            <li>Pneumatic Equipment</li>
+                            <li>Bench Presses</li>
+                            <li>Weight Racks and Storage Systems</li>
+                            <li>Bridges and Suspension Equipment</li>
+                            <li>Spin Bikes</li>
+                            <li>Reformers (Pilates)</li>
+                        </ul>
+                        
                     </div>
                 </div>
             </div>
-            <div class="row gy-5">
-            <div class="col-md-6">
-            <div class="p-3 border weekly_ellip h-100">
-                <div class="desc_weekly">
-                    <h4>Weekly</h4>
-                </div>
-                <div class="weekly_descr">
-                 <ul>
-                    <li>Wipe the surface of the bike with a cloth and cleaning solution.</li>
-                    <li>Check the upper display for proper function.</li>
-                    <li>Inspect the housing and overlay.</li>
-                    <li>Inspect the pedals and straps.</li>
-                    <li>Test the display monitor for proper function.</li>
-                    <li>Test the heart rate sensors.</li>
-                    <li>Verify the unit is operating properly.</li>
-                    </ul>
-                </div>
-
+                    <div class="row justify-content-center">
+                    <div class="col-10">
+                    <div class="recom_foottext pt-4 text-white text-center">
+                        <p>Fitness Machine Technicians has the experience required to provide a diverse range of services across a wide variety of industries, brands, and equipment types. Let us handle your commercial services while you enjoy the peace of mind that your equipment is running at its best.</p>
+                    </div>
             </div>
-            </div>
-            <div class="col-md-6">
-         
-            <div class="p-3 border weekly_ellip h-100">
-                <div class="desc_weekly">
-                    <h4>Monthly</h4>
-                </div>
-                <div class="weekly_descr">
-                <ul>
-                    <li>Check the pedals to make sure there is no grinding noise.</li>
-                    <li>Inspect the belt and chain for wear.</li>
-                    <li>Lubricate the drive chain.</li>
-                    <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                    <li>Inspect and lubricate the seat post.</li>
-                    <li>Test and adjust the belt tension</li>
-                    </ul>
-                  </div>
-
-            </div>
-            </div>
-            <div class="col-md-6">
-         
-         <div class="p-3 border weekly_ellip h-100">
-             <div class="desc_weekly">
-                 <h4>Quarterly</h4>
-             </div>
-             <div class="weekly_descr">
-             <ul>
-                <li>Perform monthly checklist items.</li>
-                <li>Check battery voltage.</li>
-                <li>Test battery.</li>
-                <li>Check the pedals to make sure there is no grinding noise.</li>
-                <li>Inspect the belt and chain for wear.</li>
-                <li>Lubricate the drive chain.</li>
-                <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                <li>Inspect and lubricate the seat post.</li>
-                <li>Test and adjust the belt tension.</li>
-                </ul>
-               </div>
-
-         </div>
-         </div>
-         <div class="col-md-6">
-         
-         <div class="p-3 border weekly_ellip h-100">
-             <div class="desc_weekly">
-                 <h4>Yearly</h4>
-             </div>
-             <div class="weekly_descr">
-             <ul>
-                 <li>Perform all of the above or request a tech to provide preventive maintenance services.</li>
-                
-                 </ul>
-               </div>
-
-         </div>
-         </div>
-        </div>
-
+                    </div>
         </div>
 
     </section>
 
 
-<!-- RECOMMENDED ELLIPTICAL MAINTENANCE finish -->
-  <!-- brands we service start -->
-  <section class="brand_start py-5">
+
+
+    <!-- RECOMMENDED GYM EQUIPMENT SALE AND SERVICE FINISH -->
+     <!-- brands we service start -->
+ <section class="brand_start py-5">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12">
@@ -375,20 +338,11 @@
 
     </section>
     <!-- contact us finish -->
-
-
-
-
-
-
-
-
-
     <!-- footer start -->
-
     <?php include "footer.php"?>
-
     <!-- footer finish -->
+
+
     <!-- bootstrap bundle link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <!-- jQuery -->
@@ -400,5 +354,6 @@
         <!-- Owl Carousel -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script src="./assets/js/main.js"></script>
+    
 </body>
 </html>

@@ -36,10 +36,10 @@
                                 </a></li>
                             <li><a class="dropdown-item" href="./ellipsales.php">Elliptical Sales & Service</a></li>
                             <li><a class="dropdown-item" href="./prevmaintenance.php">Preventive Maintenance</a></li>
-                            <li><a class="dropdown-item" href="#">Outdoor Gym</a></li>
-                            <li><a class="dropdown-item" href="#">Treadmill Sales & Service</a></li>
-                            <li><a class="dropdown-item" href="#">Exercise Bike Sales & Service</a></li>
-                            <li><a class="dropdown-item" href="#">Commercial Installation</a></li>
+                            <li><a class="dropdown-item" href="./outdoorgym.php">Outdoor Gym</a></li>
+                            <li><a class="dropdown-item" href="./trademillsales.php">Treadmill Sales & Service</a></li>
+                            <li><a class="dropdown-item" href="./exercisebik.php">Exercise Bike Sales & Service</a></li>
+                            <li><a class="dropdown-item" href="./commer_service.php">Commercial Installation</a></li>
 
                             <li><a class="dropdown-item" href="#">Assembly & Disassembly</a></li>
 

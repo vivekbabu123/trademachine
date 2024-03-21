@@ -3,39 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elliptical Sales & Service</title>
+    <title>Exercise Bike Sales & Service</title>
     <!-- custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- bootstrap 5 css cdn link  start -->
+    <!-- bootstarp css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
-    <!-- header start -->
-        <?php include "header.php"?>
-    <!-- finish start -->
-    <!-- elliptical hero service start -->
-        <section class="elliptical_hero">
+    <!-- header start  -->
+    <?php include "header.php" ?>
+    <!-- header finish -->
+    <!-- excercise hero start -->
+    <section class="excerc_services">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="title_elliciptial">
-                        <h2 class="text-center text-white">Elliptical Sales & Service</h2>
-                        </div>
+                    <div class="hero_titleservice text-center text-white">
+                        <h1>Exercise Bike Sales & Service</h1>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-    <!-- elliptical hero service finish -->
-      <!-- local provider start -->
-      <section class="local_provider py-5">
+        <!-- excercise hero finish -->
+            <!-- local provider start -->
+            <section class="local_provider py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -71,17 +65,16 @@
         <div class="col-md-6">
 
             <div class="maintain_andrepair_img">
-                <img src="./assets/img/services/preventive_maintenance.webp" alt="img" class="img-fluid">
+                <img src="./assets/img/services/exercise_bikeimg.webp" alt="img" class="img-fluid">
 
             </div>
         </div>
         <div class="col-md-6">
             <div class="maintain_andrepair_txt">
-                <h2>Elliptical Sales & Service</h2>
-                <p>Elliptical machines can see a lot of use as one of the most popular pieces of exercise equipment. Let Fitness Machine Technicians step in to provide preventive maintenance service and handle any elliptical repair service you require.</p>
-                <p>Regular preventive maintenance is the best way to prolong the life of your elliptical machines. Fitness Machine Technicians offers a variety of services to keep your machine going and help you avoid future costly repairs. Our trusted technicians are certified per individual manufacturers’ specifications, providing them with the confidence and knowledge to fix any type of exercise equipment or elliptical. </p>
-                <p>Whether you want service as needed or would like to set up a regular maintenance plan, Fitness Machine Technicians can keep your equipment fit.
-                </p>
+                <h2>EXERCISE BIKE REPAIR AND PREVENTIVE MAINTENANCE SERVICES</h2>
+                <p>Whether you want service as needed or would like to set up a regular maintenance plan, Fitness Machine Technicians can keep your equipment fit. </p>
+                <p>As popular as they are, exercise bikes require regular cleaning and maintenance to work properly and prolong use. Fitness Machine Technicians have the knowledge and experience to provide professional exercise bike repair, parts, and maintenance. Our trusted technicians deliver the most reliable services and repairs, whether your bike has malfunctioned or you’re looking for regular elliptical machine maintenance. </p>
+                <p>Choose Fitness Machine Technicians for professional service with a second-to-none turnaround time, from diagnosis to completed repairs.</p>
 
 
 
@@ -92,7 +85,7 @@
 </section>
 <!-- ellipse sale & service finish -->
 <!-- RECOMMENDED ELLIPTICAL MAINTENANCE start -->
-    <section class="ellipitical_maintaince">
+<section class="ellipitical_maintaince">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -114,13 +107,10 @@
                 </div>
                 <div class="weekly_descr">
                  <ul>
-                    <li>Wipe the surface of the bike with a cloth and cleaning solution.</li>
-                    <li>Check the upper display for proper function.</li>
-                    <li>Inspect the housing and overlay.</li>
-                    <li>Inspect the pedals and straps.</li>
-                    <li>Test the display monitor for proper function.</li>
-                    <li>Test the heart rate sensors.</li>
-                    <li>Verify the unit is operating properly.</li>
+                    <li>Wipe down the unit with a cloth and cleaning solution. The cleaner should be applied to the cloth first, not sprayed directly on the display board.</li>
+                    <li>Make sure the unit has a smooth motion.</li>
+                    <li>Check the display for proper function.</li>
+                    <li>Ensure all of the control buttons are working properly.</li>
                     </ul>
                 </div>
 
@@ -134,12 +124,9 @@
                 </div>
                 <div class="weekly_descr">
                 <ul>
-                    <li>Check the pedals to make sure there is no grinding noise.</li>
-                    <li>Inspect the belt and chain for wear.</li>
-                    <li>Lubricate the drive chain.</li>
-                    <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                    <li>Inspect and lubricate the seat post.</li>
-                    <li>Test and adjust the belt tension</li>
+                    <li>Make sure there are no squeaks.</li>
+                    <li>Check all screws and bolts to ensure they are tight.</li>
+                    <li>Check the power cord for flat spots or breaks.</li>
                     </ul>
                   </div>
 
@@ -153,15 +140,10 @@
              </div>
              <div class="weekly_descr">
              <ul>
-                <li>Perform monthly checklist items.</li>
-                <li>Check battery voltage.</li>
-                <li>Test battery.</li>
-                <li>Check the pedals to make sure there is no grinding noise.</li>
-                <li>Inspect the belt and chain for wear.</li>
-                <li>Lubricate the drive chain.</li>
-                <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                <li>Inspect and lubricate the seat post.</li>
-                <li>Test and adjust the belt tension.</li>
+                <li>Check all of the bolts at any pivot points.</li>
+                <li>Clean and lubricate the pivot points.</li>
+                <li>Clean and polish the ramps.</li>
+                <li>Check the unit for proper program functions.</li>
                 </ul>
                </div>
 
@@ -190,8 +172,8 @@
 
 
 <!-- RECOMMENDED ELLIPTICAL MAINTENANCE finish -->
-  <!-- brands we service start -->
-  <section class="brand_start py-5">
+ <!-- brands we service start -->
+ <section class="brand_start py-5">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12">
@@ -384,12 +366,19 @@
 
 
 
-    <!-- footer start -->
-
-    <?php include "footer.php"?>
-
+    <!-- footer start  -->
+    <?php include "footer.php" ?>
     <!-- footer finish -->
-    <!-- bootstrap bundle link -->
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <!-- jQuery -->
      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -400,5 +389,6 @@
         <!-- Owl Carousel -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script src="./assets/js/main.js"></script>
+    
 </body>
 </html>

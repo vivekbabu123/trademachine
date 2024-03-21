@@ -3,39 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elliptical Sales & Service</title>
+    <title>Treadmill Sales & Service</title>
     <!-- custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- bootstrap 5 css cdn link  start -->
+    <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  
 </head>
 <body>
-    <!-- header start -->
-        <?php include "header.php"?>
-    <!-- finish start -->
-    <!-- elliptical hero service start -->
-        <section class="elliptical_hero">
+<!-- header start -->
+    <?php include "header.php"?>
+<!-- header finish -->
+         <!-- trademill hero services start -->
+         <section class="tradehero_services">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="title_elliciptial">
-                        <h2 class="text-center text-white">Elliptical Sales & Service</h2>
-                        </div>
+                    <div class="hero_titleservice text-center text-white">
+                        <h1>Treadmill Sales & Service</h1>
                     </div>
                 </div>
             </div>
-
         </section>
 
-
-    <!-- elliptical hero service finish -->
-      <!-- local provider start -->
-      <section class="local_provider py-5">
+        <!--trademill hero services finish -->
+         <!-- local provider start -->
+         <section class="local_provider py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -71,16 +66,16 @@
         <div class="col-md-6">
 
             <div class="maintain_andrepair_img">
-                <img src="./assets/img/services/preventive_maintenance.webp" alt="img" class="img-fluid">
+                <img src="./assets/img/services/treadmill_repair.webp" alt="img" class="img-fluid">
 
             </div>
         </div>
         <div class="col-md-6">
             <div class="maintain_andrepair_txt">
-                <h2>Elliptical Sales & Service</h2>
-                <p>Elliptical machines can see a lot of use as one of the most popular pieces of exercise equipment. Let Fitness Machine Technicians step in to provide preventive maintenance service and handle any elliptical repair service you require.</p>
-                <p>Regular preventive maintenance is the best way to prolong the life of your elliptical machines. Fitness Machine Technicians offers a variety of services to keep your machine going and help you avoid future costly repairs. Our trusted technicians are certified per individual manufacturers’ specifications, providing them with the confidence and knowledge to fix any type of exercise equipment or elliptical. </p>
-                <p>Whether you want service as needed or would like to set up a regular maintenance plan, Fitness Machine Technicians can keep your equipment fit.
+                <h2>TREADMILL REPAIR AND PREVENTIVE MAINTENANCE SERVICES</h2>
+                <p>If your treadmill is down and you need to get your machine up and running again, choose Fitness Machine Technicians for treadmill repair! No matter the brand or type of machine, manufacturers recommend regular maintenance for gym equipment to help prolong the life of your machines. As leaders in the fitness equipment repair and maintenance industry, our trusted technicians deliver the most reliable services and repairs. </p>
+                <p>With our preventive maintenance service agreements, Fitness Machine Technicians can help prolong the life of your equipment and avoid costly repairs down the line.  </p>
+                <p>From diagnosis to completed repairs, you can trust us to offer the knowledge, experience, and second-to-none turnaround time to get the job done right.
                 </p>
 
 
@@ -92,17 +87,17 @@
 </section>
 <!-- ellipse sale & service finish -->
 <!-- RECOMMENDED ELLIPTICAL MAINTENANCE start -->
-    <section class="ellipitical_maintaince">
+<section class="ellipitical_maintaince">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="title_elliptical text-center">
                         <h2>
-                        RECOMMENDED ELLIPTICAL MAINTENANCE
+                        RECOMMENDED TREADMILL MAINTENANCE
                         </h2>
-                        <p>Fitness Machine Technicians goes above and beyond to deliver superior repairs and service: from the initial diagnosis to completed repairs, you can trust our technicians will offer the knowledge, experience, and second-to-none turnaround time to see the job is done professionally.</p>
-                        <p>While our professional technicians deliver the most reliable services and elliptical machine repair, Fitness Machine Technicians recommends following an elliptical maintenance plan to avoid downtime and keep your equipment in top shape.</p>
-                        <p>If you’re looking to avoid having to fix your elliptical machine, we recommend the following maintenance plan:</p>
+                        <p>Whether you call us for a treadmill repair or provide treadmill maintenance, Fitness Machine Technicians have you covered! </p>
+                        <p>Our team of professional technicians is corporately trained to service an array of brands and machines. With our treadmill repairs, you can rest assured that your machine is running at its best. Adding a preventive maintenance treadmill service agreement ensures that your treadmill stays in top condition, so downtime becomes a thing of the past.</p>
+                        <p>We recommend the following maintenance plan to avoid extensive treadmill repair service:</p>
                     </div>
                 </div>
             </div>
@@ -114,13 +109,10 @@
                 </div>
                 <div class="weekly_descr">
                  <ul>
-                    <li>Wipe the surface of the bike with a cloth and cleaning solution.</li>
-                    <li>Check the upper display for proper function.</li>
-                    <li>Inspect the housing and overlay.</li>
-                    <li>Inspect the pedals and straps.</li>
-                    <li>Test the display monitor for proper function.</li>
-                    <li>Test the heart rate sensors.</li>
-                    <li>Verify the unit is operating properly.</li>
+                    <li>Wipe the surface of the tread with a cloth and cleaning solution. The cleaner should be applied to the cloth first, not sprayed directly on the display board.</li>
+                    <li>Inspect the walking belt for proper alignment.</li>
+                    <li>Make sure the line cord is not under the elevation carriage.</li>
+                    <li>Ensure all of the control buttons are working properly.</li>
                     </ul>
                 </div>
 
@@ -134,12 +126,12 @@
                 </div>
                 <div class="weekly_descr">
                 <ul>
-                    <li>Check the pedals to make sure there is no grinding noise.</li>
-                    <li>Inspect the belt and chain for wear.</li>
-                    <li>Lubricate the drive chain.</li>
-                    <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                    <li>Inspect and lubricate the seat post.</li>
-                    <li>Test and adjust the belt tension</li>
+                    <li>Vacuum under the hood of the tread.</li>
+                    <li>Check the drive belt for proper alignment and wear.</li>
+                    <li>Vacuum under the tread by elevating the tread to the highest elevation.</li>
+                    <li>Check the power cord for flat spots or breaks.</li>
+                    <li>Tighten all shroud screws.</li>
+                    <li>Calibrate the tread to verify proper functions.</li>
                     </ul>
                   </div>
 
@@ -153,15 +145,10 @@
              </div>
              <div class="weekly_descr">
              <ul>
-                <li>Perform monthly checklist items.</li>
-                <li>Check battery voltage.</li>
-                <li>Test battery.</li>
-                <li>Check the pedals to make sure there is no grinding noise.</li>
-                <li>Inspect the belt and chain for wear.</li>
-                <li>Lubricate the drive chain.</li>
-                <li>Inspect the crank arm and drive sprocket, and adjust as required.</li>
-                <li>Inspect and lubricate the seat post.</li>
-                <li>Test and adjust the belt tension.</li>
+                <li>Lubricate the belt and deck to the manufacturer’s specifications.</li>
+                <li>Lubricate the elevation screw.</li>
+                <li>Check all screws and bolts to ensure they are tight.</li>
+               
                 </ul>
                </div>
 
@@ -190,8 +177,9 @@
 
 
 <!-- RECOMMENDED ELLIPTICAL MAINTENANCE finish -->
-  <!-- brands we service start -->
-  <section class="brand_start py-5">
+
+<!-- brands we service start -->
+<section class="brand_start py-5">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12">
@@ -380,25 +368,29 @@
 
 
 
+<!-- footer start -->
+<?php include "footer.php"?>
+<!-- footer finish -->
 
 
 
 
-    <!-- footer start -->
 
-    <?php include "footer.php"?>
 
-    <!-- footer finish -->
+
+
+
     <!-- bootstrap bundle link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-     <!-- jQuery -->
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <!-- jQuery -->
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-        <!-- Slick Carousel -->
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
-        <!-- Owl Carousel -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script src="./assets/js/main.js"></script>
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./assets/js/main.js"></script>
+    
 </body>
 </html>

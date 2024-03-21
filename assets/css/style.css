@@ -1540,7 +1540,108 @@ hr {
 
 
 /* Elliptical Sales & Service finish */
+/* outdoor page start css */
+.outdoor_services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/services/outdoor.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 
+    align-items: center;
+}
+
+.outdoor_fitness {
+    background-color: var(--background-blue);
+    padding: 40px 0;
+}
+
+.title_heading h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--white-);
+}
+
+.mussles_outddor {
+    text-align: center;
+}
+
+.mussles_txt {
+    text-align: center;
+    color: var(--white-);
+}
+
+/* outdoor page finsih css */
+/* trademill sale and service start */
+.tradehero_services {
+    background-image: url(../img/services/treadmill_banner.webp);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
+
+.title_elliciptial h2 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+
+/* tradamill sale and service finish */
+/* excercise sale and service start */
+.excerc_services {
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/services/exercise_bike.webp);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
+
+/* excercise sale and service finish */
+
+/* commericail sale and service start */
+.commer_services {
+    background-image: url(../img/services/commercial_service.webp);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
+
+.comm_txtquiment {
+    background-color: var(--hover-green);
+    padding: 20px;
+}
+
+.comm_img {
+    background-color: var(--hover-green);
+    padding: 20px;
+}
+
+.comm_img h2 {
+    font-size: 27px;
+}
+
+.comm_img p {
+    font-size: 14px;
+}
+
+.recom_foottext p {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* commericial sale and service finish */
 
 
 

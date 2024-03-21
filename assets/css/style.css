@@ -1526,6 +1526,16 @@ hr {
     font-weight: 900;
 }
 
+.prevemaintaince_services {
+    background-image: url(../img/services/preventive_maintenance_banner.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
 
 
 

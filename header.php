@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li><a class="dropdown-item" href="./ellipsales.php">Elliptical Sales & Service</a></li>
-                        <li><a class="dropdown-item" href="#">Preventive Maintenance</a></li>
+                        <li><a class="dropdown-item" href="./prevmaintenance.php">Preventive Maintenance</a></li>
                         <li><a class="dropdown-item" href="#">Outdoor Gym</a></li>
                         <li><a class="dropdown-item" href="#">Treadmill Sales & Service</a></li>
                         <li><a class="dropdown-item" href="#">Exercise Bike Sales & Service</a></li>

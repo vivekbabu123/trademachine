@@ -13,7 +13,7 @@ body {
 :root {
     --white-: #fff;
     --black-: #3a3a3a;
-    --hover-green: #e9bc5b;
+    --hover-green: #fdb009;
     --background-blue: #1765bd;
 }
 
@@ -616,7 +616,7 @@ body {
 
 /* contact us finish */
 .footer_nav {
-    background-color: #d6d6d7;
+    background-color: #000;
 }
 
 .number_footer p {
@@ -720,7 +720,7 @@ body {
 }
 
 .footer_sitemap {
-    background-color: #d6d6d7;
+    background-color: #000;
 }
 
 hr {
@@ -1642,6 +1642,20 @@ hr {
 }
 
 /* commericial sale and service finish */
+/* Assembly & Disassembly page start */
+.assembly_services {
+    background-image: url(../img/services/assembly_banner.webp);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    align-items: center;
+}
+
+
+/* Assembly & Disassembly page finish */
 
 
 

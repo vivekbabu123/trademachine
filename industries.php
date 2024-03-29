@@ -307,7 +307,7 @@
                         <div class="linebrandslider">
                             <div class="owl-carousel align-items-center">
                                 <div class="affiliation1 text-center">
-                                    <img src="./assets/img/fmt_logo.png" alt="img" class="img-fluid">
+                                    <img src="./assets/img/fitness-hub.png" alt="img" class="img-fluid">
                                 </div>
                                 <div class="affiliation1">
                                     <img src="./assets/img/ma_logo.png" alt="img" class="img-fluid">

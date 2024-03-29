@@ -19,12 +19,13 @@
     <!-- header start -->
     <?php include "header.php" ?>
     <!-- header finish -->
-    <!-- hotel hero start -->
-    <section class="hotel_industries">
+    <!-- apartment hero start -->
+    <section class="apartment_industries">
         <div class="container">
             <div class="row">
                 <div class="hero_titleservice text-center text-white">
-                    <h1>Hotel Fitness Equipment Repair and Maintenance Services</h1>
+                    <h1>Apartment Complex Gym Repair
+                        and Condo Gym Equipment Maintenance</h1>
                 </div>
             </div>
         </div>
@@ -61,22 +62,25 @@
 
     </section>
     <!-- local provoider finish -->
+
     <!-- hotel euipment service and repaire start -->
     <section class="hotel_equipment">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="hotel_equiment_img">
-                        <img src="./assets/img/hotels/hotel_gym_img.webp" alt="img" class="img-fluid">
+                        <img src="./assets/img/appartment//condo_gym_img.webp" alt="img" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="hotel_equipment_txt">
-                        <h1>HOTEL FITNESS EQUIPMENT REPAIR AND MAINTENANCE SERVICES
+                        <h1>APARTMENT COMPLEX GYM REPAIR AND CONDO GYM EQUIPMENT MAINTENANCE
                         </h1>
-                        <p>Providing a quality gym experience has become an important aspect of the hospitality industry. If you’re a hospitality property manager, Fitness Machine Technicians can help you keep your guests happy by avoiding equipment unavailability with our hotel fitness equipment repair and <a href="#"> preventive maintenance</a> services. </p>
-                        <p>With our nationwide network of trusted technicians, we’re able to provide our professional services to a wide array of clients across many industries, including hotels. Anywhere there’s exercise equipment, Fitness Machine Technicians can help!</p>
-                        <p>Whether you’d like repairs as needed or want a preventive maintenance service agreement, Fitness Machine Technicians can keep your hotel’s fitness equipment in peak condition.</p>
+                        <p>A clean and functional fitness center is among the top amenities apartment and condominium buildings can provide for tenants. If you’re a property manager looking for apartment or condo fitness equipment repair, Fitness Machine Technicians can help with all types of brands! </p>
+                        <p>Maintaining your property’s gym not only benefits your current and prospective tenants but can help extend the life of your equipment and save you money. We can provide our professional services as needed, or with a preventive maintenance service agreement..</p>
+                        <p>Many of our franchisees are approved vendors for the major property management groups.
+
+                        </p>
                         <span>
                             We Serve:
                         </span>
@@ -85,17 +89,17 @@
                                         <path d="M10.296 7.71 14.621 12l-4.325 4.29 1.408 1.42L17.461 12l-5.757-5.71z">
                                         </path>
                                         <path d="M6.704 6.29 5.296 7.71 9.621 12l-4.325 4.29 1.408 1.42L12.461 12z"></path>
-                                    </svg></span>Regional and National Hotels</p>
+                                    </svg></span>National and Regional Apartment Complexes</p>
                             <p class="mb-0"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(87, 157, 39, 1);transform: ;msFilter:;">
                                         <path d="M10.296 7.71 14.621 12l-4.325 4.29 1.408 1.42L17.461 12l-5.757-5.71z">
                                         </path>
                                         <path d="M6.704 6.29 5.296 7.71 9.621 12l-4.325 4.29 1.408 1.42L12.461 12z"></path>
-                                    </svg></span>Motels</p>
+                                    </svg></span>Condominiums</p>
                             <p class="mb-0"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(87, 157, 39, 1);transform: ;msFilter:;">
                                         <path d="M10.296 7.71 14.621 12l-4.325 4.29 1.408 1.42L17.461 12l-5.757-5.71z">
                                         </path>
                                         <path d="M6.704 6.29 5.296 7.71 9.621 12l-4.325 4.29 1.408 1.42L12.461 12z"></path>
-                                    </svg></span>Resort Fitness Facilities
+                                    </svg></span>Assisted Living Centers
                             </p>
 
 
@@ -111,67 +115,28 @@
 
     </section>
     <!-- hotel euipment service and repaire finish -->
-    <!-- start hotel fitting equipment start -->
-    <section>
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="hotel_fitting_txt">
-                        <h1 class="mb-2">HOW IS YOUR HOTEL FITNESS EQUIPMENT PERFORMING?</h1>
-                        <p>Most guests expect fitness equipment to be available to use during their stay. Property managers know hotel fitness repair and facility maintenance are important, especially for regularly used fitness equipment. With Fitness Machine Technicians, we can help you avoid emergency equipment malfunctions, costly repairs down the line, safety issues, or having to post “out of order” signs.</p>
-                        <p>In addition to helping you avoid these issues, regular maintenance is the best way to prolong the life of your equipment. Our team of professional technicians are corporately trained to provide expert repairs and maintenance. Every technician strives for customer satisfaction, so we take the time to thoroughly inspect your equipment to spot early signs of wear and tear and replace worn parts before they become larger, more expensive (and potentially dangerous) problems.</p>
+    <!-- property_managaer start  -->
+    <section class="property_manager py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title_property">
+                        <h2>WHY PROPERTY MANAGERS NEED FITNESS MACHINE TECHNICIANS TO SERVICE THEIR EXERCISE EQUIPMENT</h2>
+                        <p>There are many reasons to consider working with Fitness Machine Technicians for your property. With our apartment exercise equipment maintenance services, you can attract and retain tenants, contain unexpected costs, and effortlessly ensure the safety of your fitness equipment.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="hotel_fitting_img">
-                        <img src="./assets/img/hotels//working_outgym.webp" alt="img" class="img-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- star hotel fitting equipment finish -->\
-    <!-- hotels inspected start -->
-    <section class="hotel_inspected">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="hotel_inspected_img">
-                        <img src="./assets/img/hotels//fixing_equipment_img.webp" alt="img" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="hotel_inpected_txt">
-                        <h1 class="mb-2">
-                            HOW OFTEN SHOULD MY FITNESS EQUIPMENT BE INSPECTED?
-                        </h1>
-                        <p>If your hotel’s fitness center sees a lot of activity, your equipment will likely need to be serviced more frequently. We customize our preventive maintenance plans based on your desired level of service, whether you need monthly, quarterly, biannually, or annual visits. </p>
-                        <p>
-                            As part of our hotel fitness equipment maintenance plans, our trusted technicians test all parts, tighten bolts, clean and lubricate joints, remove dirt and dust from motors, and much more! Let the experts at Fitness Machine Technicians keep your hotel’s fitness equipment in shape.
-                        </p>
-                    </div>
-                </div>
+
             </div>
         </div>
 
     </section>
-    <!-- hotels insepected finish -->
-    <!-- hotel multiple state start -->
-    <section class="hotel_multiple  py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="title_hotle_multiple text-center">
-                        <h1>FITNESS EQUIPMENT REPAIR ACROSS MULTIPLE STATES</h1>
-                        <p>The beauty of working with Fitness Machine Technicians is that we provide you with one point of contact and reduced service rates with our regional and national maintenance service agreements. </p>
-                        <p>Contact our National Account Manager to reduce your number of hotel fitness equipment vendors and streamline your maintenance costs.</p>
-                        <button class="btn text-white">GET STARTED</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hotel multiple state start -->
+    <!-- property manager finish -->
+    
     <!-- Request a Quote start -->
     <section class="request_quote pb-5 ">
         <div class="container">
@@ -372,7 +337,7 @@
 
     </section>
     <!-- contact us finish -->
-        <?php include "footer.php" ?>
+    <?php include "footer.php" ?>
 
 
 

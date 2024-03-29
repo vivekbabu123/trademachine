@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>services</title>
     <!-- custom css link -->
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <!-- bootstrap css link -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
+
 <body>
     <!-- header start -->
-    <?php include "header.php"?>
+    <?php include "header.php" ?>
     <!-- header finish -->
-        <!-- hero services start -->
-        <section class="hero_services">
-            <div class="container">
-                <div class="row">
-                    <div class="hero_titleservice text-center text-white">
-                        <h1>Gym Equipment Service</h1>
-                    </div>
+    <!-- hero services start -->
+    <section class="hero_services">
+        <div class="container">
+            <div class="row">
+                <div class="hero_titleservice text-center text-white">
+                    <h1>Gym Equipment Service</h1>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- hero services finish -->
-           <!-- local provider start -->
-           <section class="local_provider py-5">
+    <!-- hero services finish -->
+    <!-- local provider start -->
+    <section class="local_provider py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6">
@@ -58,8 +60,8 @@
 
     </section>
     <!-- local provoider finish -->
-          <!-- Gym Equipment tab start -->
-          <section class="gymequipment_start">
+    <!-- Gym Equipment tab start -->
+    <section class="gymequipment_start">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -164,10 +166,10 @@
                             </div>
                         </div>
                     </div>
-                        <div class="brands_fotcontent text-center">
-                            <p>Fitness Machine Technicians are corporately trained to provide fitness equipment repair services to an array of brands. Additional certifications are provided directly from the manufacturers providing our technicians with the confidence and knowledge to work on any type of equipment. Some of the brands whose equipment we service include Life Fitness, CORE, Technogym, Freemotion, Matrix, TRUE, and many more.</p>
-                            <a href="#">Check out the list of gym equipment brands serviced here. </a>
-                        </div>
+                    <div class="brands_fotcontent text-center">
+                        <p>Fitness Machine Technicians are corporately trained to provide fitness equipment repair services to an array of brands. Additional certifications are provided directly from the manufacturers providing our technicians with the confidence and knowledge to work on any type of equipment. Some of the brands whose equipment we service include Life Fitness, CORE, Technogym, Freemotion, Matrix, TRUE, and many more.</p>
+                        <a href="#">Check out the list of gym equipment brands serviced here. </a>
+                    </div>
 
                 </div>
             </div>
@@ -178,28 +180,28 @@
     <!-- Gym Equipment tab finish -->
 
     <!-- maintaince and excerise start -->
-        <section class="maint_excer">
-            <div class="container-fluid px-0">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="mainexcer_img">
-                            <img src="./assets/img/services/preventive_maintenance.webp" alt="img" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mainexcer_txt p-2">
-                            <h1>PREVENTIVE MAINTENANCE AND EXERCISE MACHINE REPAIR SERVICES</h1>
-                            <p>Fitness Machine Technicians is a leader in the fitness equipment repair and maintenance industry. We’re the only national provider that offers both preventive maintenance and exercise machine repair services to residential and commercial clients. </p>
-                            <p>We strive for 100% customer satisfaction and do so by providing a variety of services for a wide range of machines and clients. Additionally, our free commercial equipment assessment and quotes allow customers to make good use of better pricing and priority service when they sign a service agreement.</p>
-                        </div>
-
+    <section class="maint_excer">
+        <div class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="mainexcer_img">
+                        <img src="./assets/img/services/preventive_maintenance.webp" alt="img" class="img-fluid">
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="mainexcer_txt p-2">
+                        <h1>PREVENTIVE MAINTENANCE AND EXERCISE MACHINE REPAIR SERVICES</h1>
+                        <p>Fitness Machine Technicians is a leader in the fitness equipment repair and maintenance industry. We’re the only national provider that offers both preventive maintenance and exercise machine repair services to residential and commercial clients. </p>
+                        <p>We strive for 100% customer satisfaction and do so by providing a variety of services for a wide range of machines and clients. Additionally, our free commercial equipment assessment and quotes allow customers to make good use of better pricing and priority service when they sign a service agreement.</p>
+                    </div>
+
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-- maintaince and excerise finish -->
-      <!-- brands we service start -->
-      <section class="brand_start py-5">
+    <!-- brands we service start -->
+    <section class="brand_start py-5">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12">
@@ -291,25 +293,25 @@
 
     <!-- brands we service finish -->
     <!-- Our fitness equipment start -->
-        <section class="fit_equipment">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="fit_equip_txt">
-                            <h2>
+    <section class="fit_equipment">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="fit_equip_txt">
+                        <h2>
                             OUR FITNESS EQUIPMENT REPAIR SERVICES
-                            </h2>
-                            <p>While we don’t sell equipment, Fitness Machine Technicians provides an array of services to improve the life of your equipment. Our preventive maintenance services are ideal for both residential and commercial owners, as they help users by reducing liability and improving the safety of the equipment. </p>
+                        </h2>
+                        <p>While we don’t sell equipment, Fitness Machine Technicians provides an array of services to improve the life of your equipment. Our preventive maintenance services are ideal for both residential and commercial owners, as they help users by reducing liability and improving the safety of the equipment. </p>
 
-                               <p> We’re happy to provide the exercise equipment repair service your equipment requires, no matter what type of equipment you have.</p>
-                        </div>
+                        <p> We’re happy to provide the exercise equipment repair service your equipment requires, no matter what type of equipment you have.</p>
                     </div>
-                    <div class="col-md-5">
-                        <div class="we_service">
-                            <h4>We Service:</h4>
-                        </div>
-                        <div class="row g-2">
-                            <div class="col-6">
+                </div>
+                <div class="col-md-5">
+                    <div class="we_service">
+                        <h4>We Service:</h4>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/treadmill_icon.png" alt="img" class="img-fluid">
@@ -317,8 +319,8 @@
                                 </div>
 
                             </div>
-                            </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/ellipticals_icon.png" alt="img" class="img-fluid">
@@ -326,8 +328,8 @@
                                 </div>
 
                             </div>
-                            </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/exercise_icon.png" alt="img" class="img-fluid">
@@ -335,8 +337,8 @@
                                 </div>
 
                             </div>
-                            </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/step_mills_icon.png" alt="img" class="img-fluid">
@@ -344,8 +346,8 @@
                                 </div>
 
                             </div>
-                            </div>
-                            <div class="col-6">
+                        </div>
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/stationary_bike_icon.png" alt="img" class="img-fluid">
@@ -353,9 +355,9 @@
                                 </div>
 
                             </div>
-                            
-                            </div>
-                            <div class="col-6">
+
+                        </div>
+                        <div class="col-6">
                             <div class="trademill bg-white p-3">
                                 <div class="trademil_icon d-flex justify-content-evenly align-items-center">
                                     <img src="./assets/img/services/barbel_icon.png" alt="img" class="img-fluid">
@@ -363,13 +365,13 @@
                                 </div>
 
                             </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-        </section>
+    </section>
 
     <!-- our fitness equipment finish -->
     <section class="request_quote ">
@@ -484,8 +486,8 @@
     <!-- Request a quote finish -->
 
 
-        <!-- our Affilation start -->
-        <section class="affiliation py-5">
+    <!-- our Affilation start -->
+    <section class="affiliation py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -535,7 +537,7 @@
                         <div class="linebrandslider">
                             <div class="owl-carousel align-items-center">
                                 <div class="affiliation1 text-center">
-                                    <img src="./assets/img/fmt_logo.png" alt="img" class="img-fluid">
+                                    <img src="./assets/img/fitness-hub.png" alt="img" class="img-fluid">
                                 </div>
                                 <div class="affiliation1">
                                     <img src="./assets/img/ma_logo.png" alt="img" class="img-fluid">
@@ -597,17 +599,18 @@
 
 
 
-        <!-- bootstrap js link -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-         <!-- jQuery -->
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Slick Carousel -->
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!-- Slick Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
-<!-- Owl Carousel -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="./assets/js/main.js"></script>
-    
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
 </body>
+
 </html>
